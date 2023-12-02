@@ -8,3 +8,20 @@ This is my traffic light program. The program has 3 buttons with pictures of 3 c
 |    ✔️  |    ❌  |
 
 ![Gif](gif.gif) 
+
+<h1 align="center">Important code moments</h1> 
+
+In this project, instead of using a `Button`, I used `ImageButton`. This made it possible to insert an image into the button
+
+The main code is Java. The code is quite simple, there is only one point
+
+```
+redButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mainLayout.setBackgroundColor(Color.RED);
+                textView.setText("Red");
+            }
+        });
+```
+This is an example of using an ``event handler``
