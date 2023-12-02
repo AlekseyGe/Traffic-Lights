@@ -17,11 +17,10 @@ The main code is Java. The code is quite simple, there is only one point
 
 ```
 redButton.setOnClickListener(new View.OnClickListener() {
-            @Override
             public void onClick(View view) {
                 mainLayout.setBackgroundColor(Color.RED);
                 textView.setText("Red");
             }
         });
 ```
-This is an example of using an ``event handler``
+This is an example of using an `event handler`. In this case, it simply changes the appearance of the application interface in response to user actions
