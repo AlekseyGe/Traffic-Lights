@@ -1,3 +1,5 @@
+Language : us | [ru](./README.ru-RU.md)
+
 # Traffic-Lights
 This is my traffic light program. The program has 3 buttons with pictures of 3 circles and when you click on any of the buttons, the background color changes
 
